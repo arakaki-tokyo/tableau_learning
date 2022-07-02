@@ -6,12 +6,17 @@
 
 
 ## 概要
+- Tableau Publicを扱う上で、データの接続(2~6)、データの前処理(7~10)、チャート・ダッシュボード・ストーリーの作成方法(11~19)などについての基本的な操作方法や考え方を学ぶことができる。
+- 一連のハンズオンを通じて以下のようなダッシュボードやストーリーを作成できる。
 
-
-
-## viz 埋め込みテスト
+### ダッシュボード例
 {::nomarkdown}
-<div class='tableauPlaceholder' id='viz1657084924909' style='position: relative'><noscript><a href='#'><img alt='CO2 Emissions around the World ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tableau_070602&#47;1_1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='tableau_070602&#47;1_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tableau_070602&#47;1_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ja-JP' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657084924909');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1657096040075' style='position: relative'><noscript><a href='#'><img alt='1人あたりのCO2排出量が最も高い国は？ ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tableau_070501&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='tableau_070501&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tableau_070501&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ja-JP' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657096040075');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+{:/}
+
+### ストーリー例
+{::nomarkdown}
+<div class='tableauPlaceholder' id='viz1657096053055' style='position: relative'><noscript><a href='#'><img alt='CO2 Emissions around the World ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tableau_070602&#47;1_1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='tableau_070602&#47;1_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tableau_070602&#47;1_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ja-JP' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657096053055');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 {:/}
 
 
@@ -28,7 +33,7 @@
   - 離散(discrete)データ：青。通常グラフ上でヘッダーとなる。
   - 連続(continuous)データ：緑。通常グラフ上で軸の値となる。▼から離散データとして扱うことも可能。
 - マーク
-  - ツールヒント：マウスホバー時などにポップアップするツールチップの書式を編集
+  - ツールヒント：マウスホバー時などにポップアップするツールチップの書式を編集。別のシートのグラフを表示することも可能。
 - 「表示形式」(Show Me)ツールバー：
   - フィールドを複数選択することで利用可能なグラフが示される
 
@@ -67,11 +72,11 @@
 	- 日本語版あり：Tableau Public の概要	
 	- [x] watch
 - 2\. Connecting to Excel and Text Files
-	- [ ] watch
+	- [x] watch
 - 3\. Connecting to Google Sheets
-	- [ ] watch
+	- [x] watch
 - 4\. Connecting to Web Data Connectors
-	- [ ] watch
+	- [x] watch
 - 5\. Connecting to Spatial Files
 	- 日本語版あり：空間ファイルへの接続 
 	- [x] watch
@@ -112,8 +117,8 @@
 	- 日本語版あり：デバイスデザイナーを使ってモバイル用にデザインする
 	- [x] watch
 - 20\. Publishing and Embedding Vizzes
-	- [ ] watch
+	- [x] watch
 - 22\. Edit Vizzes on the Web
-	- [ ] watch
+	- [x] watch
 - 21\. Adding a custom Viz in Tooltip
-	- [ ] watch
+	- [x] watch
