@@ -1,0 +1,63 @@
+[Free Data Visualization Software \| Tableau Public](https://public.tableau.com/ja-jp/s/)
+
+- 
+- [ホワイトペーパー](https://www.tableau.com/ja-jp/learn/whitepapers)
+- [プロフィール \- \.33622291 \| Tableau Public](https://public.tableau.com/app/profile/.33622291)
+
+
+
+## log
+- 1\. Tableau Public Overview
+	- 日本語版あり：Tableau Public の概要	
+	- [x] watch
+- 2\. Connecting to Excel and Text Files
+	- [ ] watch
+- 3\. Connecting to Google Sheets
+	- [ ] watch
+- 4\. Connecting to Web Data Connectors
+	- [ ] watch
+- 5\. Connecting to Spatial Files
+	- 日本語版あり：空間ファイルへの接続 
+	- [x] watch
+- 6\. Connecting to PDFs
+	- [ ] watch
+- 7\. Data Preparation – The Data Interpreter
+	- 日本語版あり：データ準備 - データインタープリター
+	- [x] watch
+- 8\. Data Preparation – Pivoting your Data
+	- 日本語版あり：データ準備 - データのピボット
+	- [x] watch
+- 9\. Data Preparation – Splitting your Data
+	- 日本語版あり：データ準備 - データの分割
+	- [x] watch
+-  10\. Data Preparation – Joins and Unions
+	- 日本語版あり：データ準備 - 結合とユニオン
+	- [x] watch
+- 11\. Creating Your First Chart
+	- 日本語版あり：初めてのチャート作成 
+	- [x] watch
+- 12\. Using the Show Me Tool Bar
+	- [ ] watch
+- 13\. Understanding the Logic of Charts
+	- [ ] watch
+- 14\. Combining Sheets on a Dashboard
+	- ダッシュボードに複数のシートをまとめる
+	- [x] watch
+- 15\. Adding Interactivity to Dashboards
+	- 日本語版あり：ダッシュボードへのインタラクティブ性の追加
+	- [x] watch
+- 16\. Dashboard Formatting
+	- [ ] watch
+- 17\. Creating Stories
+	- [ ] watch
+- 18\. Formatting Story Points
+	- [ ] watch
+- 19\. Designing for Mobile with the Device Designer
+	- 日本語版あり：デバイスデザイナーを使ってモバイル用にデザインする
+	- [x] watch
+- 20\. Publishing and Embedding Vizzes
+	- [ ] watch
+- 22\. Edit Vizzes on the Web
+	- [ ] watch
+- 21\. Adding a custom Viz in Tooltip
+	- [ ] watch
