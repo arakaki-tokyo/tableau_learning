@@ -12,6 +12,7 @@
     - [Create data that moves you with viz animations](https://www.tableau.com/ja-jp/about/blog/2020/2/bring-your-data-life-viz-animations)
 - [ビジュアル分析を利用する理由](https://www.tableau.com/ja-jp/learn/whitepapers/why-visual-analytics)
 - [視覚的分析のベストプラクティス: ガイドブック](https://www.tableau.com/ja-jp/learn/whitepapers/tableau-visual-guidebook)
+- [説得力ある情報提供で相手の心をつかむダッシュボードの構築方法](https://www.tableau.com/ja-jp/learn/whitepapers/how-build-dashboards-persuade-inform-and-engage)
 - [ダッシュボード作成のアドバイス](https://www.tableau.com/ja-jp/learn/whitepapers/dos-and-donts-dashboards#form)
 - [効果的なダッシュボードを作成するための 10 のベストプラクティス](https://www.tableau.com/ja-jp/learn/whitepapers/10-best-practices-building-effective-dashboards)
 
@@ -30,7 +31,6 @@
 
 未
 - [LOD 表現トップ 15](https://www.tableau.com/ja-jp/about/blog/LOD-expressions)
-- [説得力ある情報提供で相手の心をつかむダッシュボードの構築方法](https://www.tableau.com/ja-jp/learn/whitepapers/how-build-dashboards-persuade-inform-and-engage)
 - ~~[マーケティングダッシュボード: 作成のアドバイス](https://www.tableau.com/ja-jp/learn/whitepapers/marketing-dashboards-dos-donts)~~
   - [ダッシュボード作成のアドバイス](https://www.tableau.com/ja-jp/learn/whitepapers/dos-and-donts-dashboards#form)と同じファイルURL
   - 英語ページ：[Marketing Dashboards: The Do's & Don'ts](https://www.tableau.com/learn/whitepapers/marketing-dashboards-dos-donts)
@@ -216,6 +216,21 @@
   -  
 
 ## ダッシュボードについて
+---
+### [説得力ある情報提供で相手の心をつかむダッシュボードの構築方法](https://www.tableau.com/ja-jp/learn/whitepapers/how-build-dashboards-persuade-inform-and-engage)
+概要：ダッシュボード作成時の考え方について、要点を絞って紹介する記事
+
+- データのことばかりを考えず、ユーザーに集中する
+  - ユーザーは…
+    - 何を必要としていますか? 
+    - このデータをどれくらい頻繁に見ますか? 
+    - そこから何を得る必要がありますか? 
+    - このテーマに関してどのような知識をすでに持っていますか?
+    - これまでにダッシュボードを使用したことがありますか?
+  - ユーザーにストーリーを適応させる
+    - オーディエンスがフローを体験できるように取り組む場合には、そのオーディエンスを把握することで、データ提示のオプションを絞り込めるようになります。
+- 排除できるものを過不足なくすべて排除する
+- 作成したダッシュボードを見せ、徹底的に作業を繰り返す
 
 ---
 ### [ダッシュボード作成のアドバイス](https://www.tableau.com/ja-jp/learn/whitepapers/dos-and-donts-dashboards#form)
