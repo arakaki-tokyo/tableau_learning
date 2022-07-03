@@ -3,95 +3,35 @@
 - 
 - [ホワイトペーパー](https://www.tableau.com/ja-jp/learn/whitepapers)
 - [プロフィール \- \.33622291 \| Tableau Public](https://public.tableau.com/app/profile/.33622291)
-
-
-
-## log
-
-メモ
-
-**全般**
-- シートの種類：
-  - ワークシート：1シートにつき、一つのチャートを作成する。左サイドバーにあるフィールドを使用する。
-  - ダッシュボード：複数のチャート(ワークシート)をまとめる。左サイドバーにあるシートを使用する。
-  - ストーリー
-
-**ワークシート**
-- フィールド：データペインに表示されるディメンション・メジャーの各項目
-  - 離散(discrete)データ：青。通常グラフ上でヘッダーとなる。
-  - 連続(continuous)データ：緑。通常グラフ上で軸の値となる。▼から離散データとして扱うことも可能。
-- マーク
-  - ツールヒント：マウスホバー時などにポップアップするツールチップの書式を編集
-- 「表示形式」(Show Me)ツールバー：
-  - フィールドを複数選択することで利用可能なグラフが示される
-
-**ダッシュボード**
-- フィルター機能：
-  - チャートのフィルターアイコンをクリック。チャート同士を関連付け、クリックによる選択で別チャートの表示項目を絞る。
-  - フィルターによって別チャートのスケールが変わらないようにするには、チャートの縦軸ラベルをダブルクリックし、「範囲」で「固定」を選択
-  - チャートの▼から、そのチャートに適用されるフィルターを選択することもできる。その場合、ワークシートでフィルタリング項目をツールヒントに追加しておく。
-  - 
-- ハイライト機能：フィルターでは未選択のデータは非表示になるが、ハイライトでは全てのデータは表示されたまま。
-  - メニューバー「ダッシュボード」>「アクション」>「アクションの追加」>「ハイライト」
-  - フィルターの動作が優先されるため、フィルターを無効化。
-- ツールバー「書式設定」>「ワークブック」より、一括でフォント設定可能
-- チャートのマージンを取るには、サイドバーの「オブジェクト」から「空白」を使用する
-- デバイスデザイナーによるレスポンシブデザインの設計
+- [Free Training Videos \- 2022\.2](https://www.tableau.com/ja-jp/learn/training/20222)
+- bla
+- bla
+- bla
+- bla
+- bla
+- bla
+- bla
 - 
 
 
-コンテンツ
-- 1\. Tableau Public Overview
-	- 日本語版あり：Tableau Public の概要	
-	- [x] watch
-- 2\. Connecting to Excel and Text Files
-	- [ ] watch
-- 3\. Connecting to Google Sheets
-	- [ ] watch
-- 4\. Connecting to Web Data Connectors
-	- [ ] watch
-- 5\. Connecting to Spatial Files
-	- 日本語版あり：空間ファイルへの接続 
-	- [x] watch
-- 6\. Connecting to PDFs
-	- [ ] watch
-- 7\. Data Preparation – The Data Interpreter
-	- 日本語版あり：データ準備 - データインタープリター
-	- [x] watch
-- 8\. Data Preparation – Pivoting your Data
-	- 日本語版あり：データ準備 - データのピボット
-	- [x] watch
-- 9\. Data Preparation – Splitting your Data
-	- 日本語版あり：データ準備 - データの分割
-	- [x] watch
--  10\. Data Preparation – Joins and Unions
-	- 日本語版あり：データ準備 - 結合とユニオン
-	- [x] watch
-- 11\. Creating Your First Chart
-	- 日本語版あり：初めてのチャート作成 
-	- [x] watch
-- 12\. Using the Show Me Tool Bar
-	- [x] watch
-- 13\. Understanding the Logic of Charts
-	- [x] watch
-- 14\. Combining Sheets on a Dashboard
-	- ダッシュボードに複数のシートをまとめる
-	- [x] watch
-- 15\. Adding Interactivity to Dashboards
-	- 日本語版あり：ダッシュボードへのインタラクティブ性の追加
-	- [x] watch
-- 16\. Dashboard Formatting
-	- [x] watch
-- 17\. Creating Stories
-	- [ ] watch
-- 18\. Formatting Story Points
-	- [ ] watch
-- 19\. Designing for Mobile with the Device Designer
-	- 日本語版あり：デバイスデザイナーを使ってモバイル用にデザインする
-	- [x] watch
-- 20\. Publishing and Embedding Vizzes
-	- [ ] watch
-- 22\. Edit Vizzes on the Web
-	- [ ] watch
-- 21\. Adding a custom Viz in Tooltip
-	- [ ] watch
+
+[【Tableau】シート背景透過の設定方法](https://knowledge.insight-lab.co.jp/tableau/dashboard/transparent#:~:text=%E3%82%B7%E3%83%BC%E3%83%88%E3%81%AE%E8%83%8C%E6%99%AF%E3%82%92%E9%80%8F%E9%81%8E%E3%81%95%E3%81%9B%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E3%81%AF%E3%80%81%E6%9B%B8%E5%BC%8F,%E7%B7%A8%E9%9B%86%E3%81%99%E3%82%8B%E5%BF%85%E8%A6%81%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82&text=%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88%E3%81%AE%E5%A1%97%E3%82%8A%E3%81%A4%E3%81%B6%E3%81%97%E3%82%92,%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82)
+- [【Tableauの基本】これでわかるTableau Desktopハンズオン \- YouTube](https://www.youtube.com/watch?v=w3-iSVb_BXM)
+  - 13: ユニオン
+    - 他サーバから自動で取り込む
+  - 16: リレーションシップ
+    - 結合に馴染みがない場合
+    - 完全外部結合でデータを取得できる？
+    - 柔軟にデータを取得できる？
+  - 18: 結合
+    - これが理解できるならリレーションは必要ない？
+  - 22: [ライブ] or [抽出]
+    - ライブ：操作を行う度にデータを取りに行く？動作が遅くなる。
+    - 抽出：ローカルファイルや負荷をかけられないサーバーなど
+  - 25：フィルター
+    - 28：カラムのフィルタリング
+
+
+
+## 個人
+
