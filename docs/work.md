@@ -182,12 +182,75 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
 
 <video controls autoplay loop width="600" src='img/100％積み上げ棒グラフ.webm'></video>
 
+### 滝グラフ
+🌟ポイント
+- 各項目の長さを下(マイナス)方向に伸ばすため、以下のような計算フィールドを作成して[サイズ]にドロップする
+  - `- [長さで表すメジャー]`
+
+<video controls autoplay loop width="600" src='img/滝グラフ.webm'></video>
+
 #### 地域やカテゴリの並べ替え
 <video controls autoplay loop width="600" src='img/100％積み上げ棒グラフ_並べ替え.webm'></video>
 
 ### 100％面グラフ
 
 <video controls autoplay loop width="600" src='img/100％面グラフ.webm'></video>
+
+### パレート図
+🌟ポイント
+- 定数線を引くために、x軸を累計の割合で表す必要がある
+  - **列のフィールドで[メジャー]>[カウント(個別)]に変更する前に以下を実施！(順不同)**
+    - 右クリックから[並べ替え]>[フィールド]、[降順]を選択
+    - 当該フィールドを[詳細]にドロップ
+  - 上の2つの手順は下記のようにまとめることもできる。が、分かりづらい…
+    - 当該フィールドを[詳細]にドロップしてクリック、ツールバーの[降順で並べ替え]ボタンを2回クリック
+- [表計算]では[次を使用して計算]の選択や[セカンダリ計算の追加]を忘れないように！
+
+
+🔍参照
+- [パレート図の作成 \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/pareto.htm)
+  - 手軽だがx軸の定数線を引くことができない
+- [Tableauでのパレート図の作り方 \| バンブロ ～BIでビジネスにイノベーションを～](https://blogs.techvan.co.jp/bi/2020/07/13/tableau%E3%81%A7%E3%81%AE%E3%83%91%E3%83%AC%E3%83%BC%E3%83%88%E5%9B%B3%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9)
+  - この手順を参考にした
+<video controls autoplay loop width="600" src='img/パレート図.webm'></video>
+
+
+### 管理図
+🌟ポイント
+
+- **2重軸で同じデータを重ねる場合、フィールドを複製しなければならない！**
+- 下記の式で`±3 × 標準偏差`の計算フィールドを追加。
+  `STDEV`(標本)と`STDEVP`(母集団)の違いの注意！⇐分布バンドと同じ計算を選択
+```
+SUM([利益]) < WINDOW_AVG(SUM([利益])) - 3*WINDOW_STDEVP(SUM([利益]))
+or 
+WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
+```
+
+<video controls autoplay loop width="600" src='img/管理図.webm'></video>
+
+### 日付_累計
+🌟ポイント
+- フィールドを右クリックした[表計算の編集]で[計算アシスタント]の表示をチェックすると、[次を使用して計算]の計算順序が示される
+
+<video controls autoplay loop width="600" src='img/日付_累計.webm'></video>
+
+
+### 日付_差
+
+#### 前月差
+<video controls autoplay loop width="600" src='img/日付_差_前月.webm'></video>
+
+#### 前年同月差(日付を離散値として)
+<video controls autoplay loop width="600" src='img/日付_差_前年(日付を離散値として).webm'></video>
+
+#### 前年同月差(日付を連続値として)
+🌟ポイント
+- 簡易表計算を行ったフィールドをデータペインにドロップして新しいフィールドを作成する
+- 新しいフィールドの計算式を編集することができる
+  - 今回は前月(-1)との差を計算していた部分を、前年同月(-12)との差を計算するように変更
+<video controls autoplay loop width="600" src='img/日付_差_前年(日付を連続値として).webm'></video>
+
 
 
 
