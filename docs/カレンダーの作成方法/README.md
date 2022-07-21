@@ -1,6 +1,17 @@
+# カレンダーの作成方法
+## 月のカレンダー
 
+- 参考
+  - [【Tableau】カレンダー風表の作り方｜パーソルプロセス＆テクノロジー SMKT事業部｜note](https://note.com/smkt_interview/n/n8288c6198aab)
+  - [Tableauでカレンダーをつくってみた : Tabろぐ](http://blog.livedoor.jp/tab_hiro/archives/17308976.html)
+  - [Tableauでカレンダー形式のダッシュボードを作成する方法 │ キヨシの命題](https://yolo-kiyoshi.com/2019/07/23/post-1179/)
 
 ## 年間カレンダー
+
+- 作成したViz: [Tips: 年間カレンダー \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/Tips_16584759196560/STEP1?publish=yes)
+- 参考
+  - [Viz バラエティショー: ヒートマップカレンダーはいつ使うべきか](https://www.tableau.com/ja-jp/about/blog/2017/2/viz-variety-show-heatmaps-66330)
+  - [Tableau極める Day14 カレンダーを作成して売上をハイライトする \- YouTube](https://www.youtube.com/watch?v=HlmYVDDF68k)
 
 ### STEP 1：ベースとなるチャートの作成
 以下の通り作成
@@ -30,13 +41,28 @@
   - 列：「列番号」「曜日(オーダー日)」
   - 行：「四半期(オーダー日)」「週番号」
 
-<video controls autoplay loop width="600" src='img/step1.webm'></video>
+<video controls autoplay loop width="600" src='img/step2.webm'></video>
 
 
-以下の通り
+### STEP 3：「週番号」を連続値にする
 
-### STEP 3
-### STEP 4
+- 「週番号」を連続値にする
+- 「週番号」の軸でスケールを反転させる
+- マークで「`AVG(1)`」というフィールドを作成し、「サイズ」にドロップする
+- ラベルの配置を上下左右中央にする
+
+<video controls autoplay loop width="600" src='img/step3.webm'></video>
+
+### STEP 4：月を表示する
+- 「行番号」軸の範囲(開始値)を固定し、`-2`とする
+- 以下の計算フィールドを作成する
+  - 名前：月ラベル
+  - 式：`if DATEPART("weekday", [オーダー日]) == 4 then -1 END`
+  - 用途：月の表示位置
+- 作成した計算フィールドを「行」のドロップして動画の操作を行う
+
+<video controls autoplay loop width="600" src='img/step4.webm'></video>
+
 ### STEP 5：書式設定
 
 - 曜日を上にする
@@ -59,3 +85,12 @@
   - 「行番号」を右クリック > 「ヘッダーの表示」をクリック
   - 「列番号」を右クリック > 「ヘッダーの表示」をクリック
   - 「オーダー日」を右クリック > 「列のフィールドラベルを非表示」をクリック
+
+<video controls autoplay loop width="600" src='img/step5.webm'></video>
+
+### カレンダーが虫食い状態となる回避策
+
+日付だけのデータソースを別途読み込んで組み合わせればよい。
+
+- 使用したデータソース：[date.csv](https://github.com/arakaki-tokyo/tableau_learning/blob/main/data/date.csv)
+- Viz: 上述のViz[発展2: 日付を別のデータソースから組み合わせる](https://public.tableau.com/app/profile/.33622291/viz/Tips_16584759196560/2)シート
