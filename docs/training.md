@@ -121,7 +121,7 @@
 
 ### <span id="cp1_2">1.2</span>　キャンセル数と宿泊数の月別推移
 - data: `付属データ/Chap01/1.2_hotel_bookings.csv`
-- Viz:[ch1\.2: キャンセル数と宿泊数の月別推移 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch1_2/1_2?publish=yes)
+- Viz: [ch1\.2: キャンセル数と宿泊数の月別推移 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch1_2/1_2?publish=yes)
 
 🌟ポイント
 - データによってはそのまま日付列として使用できない場合がある
@@ -135,7 +135,7 @@
 
 ### <span id="cp1_3">1.3</span>　市区町村別のAirbnbホスト数とその評価
 - data: `付属データ/Chap01/1.3_airbnb_listings.csv`
-- Viz:[ch1\.3: 市区町村別のAirbnbホスト数とその評価 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch1_3Airbnb/1_3Airbnb?publish=yes)
+- Viz: [ch1\.3: 市区町村別のAirbnbホスト数とその評価 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch1_3Airbnb/1_3Airbnb?publish=yes)
 
 🌟ポイント
 - 「カウント」と「個別のカウント」の違いを理解しよう
@@ -146,7 +146,7 @@
 
 ### <span id="cp1_4">1.4</span>　幸福度スコア7項目の国別一覧
 - data: `付属データ/Chap01/1.4_world_hapiness(2020).csv`
-- Viz:[ch\.1\.4: 幸福度スコア7項目の国別一覧 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_47/1_47?publish=yes)
+- Viz: [ch\.1\.4: 幸福度スコア7項目の国別一覧 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_47/1_47?publish=yes)
 
 🌟ポイント
 - 複数メジャーのクロス集計表の作成手順をおさえる！
@@ -154,16 +154,33 @@
 <video controls autoplay loop width="600" src='img/training/1_4.webm'></video>
 
 ### <span id="cp1_5">1.5</span>　年代・地域別の投票率
-- data: `付属データ/Chap01/`
-- Viz:
+- data: `付属データ/Chap01/1.5_election_shugiin_h29.csv`
+- Viz: [ch\.1\.5: 年代・地域別の投票率 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_5/1_5?publish=yes)
+
+🌟ポイント
+- 接続したデータが[Tidy](https://ja.wikipedia.org/wiki/Tidy_data)でない場合、ピボット機能で前処理する必要がある
+
+<video controls autoplay loop width="600" src='img/training/1_5.webm'></video>
+
+🚀発展
+- [Tips: パラメータ\(スライダー\)の値によって色分けする方法 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/Tips_16583674842780/sheet0?publish=yes)
 
 ### <span id="cp1_6">1.6</span>　東京都の平均不動産価格と65歳以上の人口割合の関係
-- data: `付属データ/Chap01/`
-- Viz:
+- data: `付属データ/Chap01/1.6_trade_price`
+- Viz: [ch\.1\.6: 東京都の平均不動産価格と65歳以上の人口割合の関係 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_665/1_665)
+
+🌟ポイント
+- 複数のテーブルを組み合わせる場合、**リレーション**と**結合**の挙動の違いを理解しよう
+  - [リレーションの例](https://public.tableau.com/app/profile/.33622291/viz/ch_1_665/sheet1)(上Vizの2シート目)、[結合の例](https://public.tableau.com/app/profile/.33622291/viz/Tips_16583729484970/sheet0)
 
 ### <span id="cp1_7">1.7</span>　日別の売買株数と株価
-- data: `付属データ/Chap01/`
-- Viz:
+- data: `付属データ/Chap01/1.7_apple_historical_quotes.csv`
+- Viz:[ch\.1\.7: 日別の売買株数と株価 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_7/1_7?publish=yes)
+
+🌟ポイント
+- 直近のデータのみ表示したい場合、日付型のフィールドでフィルターを作成する際「ワークブックを開いたときに最新の日付値にフィルターします」をチェックする
+
+<video controls autoplay loop width="600" src='img/training/1_7.webm'></video>
 
 ### <span id="cp1_8">1.8</span>　前週との人数増減
 - data: `付属データ/Chap01/`
