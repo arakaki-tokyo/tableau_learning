@@ -1,3 +1,6 @@
+
+## info
+
 - official
   - 製品
     - [Free Data Visualization Software \| Tableau Public](https://public.tableau.com/ja-jp/s/)
@@ -14,18 +17,10 @@
           - ビデオやホワイトペーパーへのリンクから、ステップバイステップで学べるような構成
           - 公開が古いため、リンク切れも多い…
       - 
-- output
-  - [プロフィール \- \.33622291 \| Tableau Public](https://public.tableau.com/app/profile/.33622291)
-  - [arakaki\-tokyo/tableau\_learning](https://github.com/arakaki-tokyo/tableau_learning)
-  - [Welcome to GitHub Pages \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/)
-- bla
-- bla
-- bla
-- bla
 - 
 
 
-## memo/todo
+## 機能
 - ダッシュボードの拡張機能？
   - [ダッシュボードの拡張機能の使用 \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/dashboard_extensions.htm)
   - ↑ここから：[ダッシュボードからの REST API の呼び出し \| Tableau Software](https://kb.tableau.com/articles/howto/calling-rest-api-from-tableau-dashboard?lang=ja-jp)
@@ -38,11 +33,31 @@
 - TabPy
   - [【Tableau × Python】TabPyを使ってAPIで取得した情報を可視化 \- deepblue](https://blog.deepblue-ts.co.jp/tableau/connecting-to-api-with-tabpy-for-tableau/)
   - 動的にAPIを叩くこともできる？
-
-## memo2
 - 計算フィールド
   - [Tableau で計算フィールドを使って作業するためのヒント \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/calculations_calculatedfields_tips.htm)
-- 
+- webデータコネクタ
+  - [Web データ コネクタ \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/examples_web_data_connector.htm)
+    - > Tableau Server にデータ ソースまたはワークブックをパブリッシュする際、Web データ コネクタが Tableau Server のセーフ リストに追加されない限り、Tableau Server で抽出を更新できません。
+  - Github: [Web Data Connector Home](https://tableau.github.io/webdataconnector/)
+    - [Get Started](https://tableau.github.io/webdataconnector/docs/)
+    - [WDC Tutorial](https://tableau.github.io/webdataconnector/docs/wdc_tutorial.html)
+  - [TableauのWebデータコネクタを作ってみる](https://www.cresco.co.jp/blog/entry/2857/)
+  - [Tableau Web データ コネクタ（WDC）を使って自社データをTableau Desktopから接続してみた \- Qiita](https://qiita.com/yuji_saito/items/db42e5f110756dbf1078)
+  - [Tableau Web Data Connector開発ことはじめ – リックソフト公式ブログ（Ricksoft Blog）](https://www.ricksoft.jp/blog/archives/8040/)
+    - SDK(シミュレーター)の使用方法
+  - **[Tableau Webデータコネクタ でいくつかハマったからHello Worldまでまとめ \- Qiita](https://qiita.com/o0h/items/5201d36695299698f5b2)**
+    - 手順詳しい
+- LOD計算について
+  - [LOD計算を本気で理解する](https://www.yarakawa.com/single-post/lod_calculations)
+    - 具体例に基づくユースケースや操作の順序との関係などが分かりやすい
+  - [Tableau：分かりやすいLOD\-概要編 \| エクスチュア株式会社ブログ](https://ex-ture.com/blog/2017/11/03/tableau%EF%BC%9A%E5%88%86%E3%81%8B%E3%82%8A%E3%82%84%E3%81%99%E3%81%84lod-%E6%A6%82%E8%A6%81%E7%B7%A8/)
+    - [Tableau：分かりやすいLOD\-FIXED編 \| エクスチュア株式会社ブログ](https://ex-ture.com/blog/2017/12/04/%e5%88%86%e3%81%8b%e3%82%8a%e3%82%84%e3%81%99%e3%81%84lod-fixed%e7%b7%a8/)
+    - [Tableau：分かりやすいLOD – INCLUDE編 \| エクスチュア株式会社ブログ](https://ex-ture.com/blog/2018/07/14/tableau%ef%bc%9a%e5%88%86%e3%81%8b%e3%82%8a%e3%82%84%e3%81%99%e3%81%84lod-include%e7%b7%a8/)
+    - [Tableau：分かりやすいLOD – EXCLUDE編 \| エクスチュア株式会社ブログ](https://ex-ture.com/blog/2019/03/15/tableau-lod-exclude/)
+  - [Tableau – LOD計算\(FIXED, INCLUDE,EXCLUDE\)の使い方 \| ST\-Brain](https://st-brain.com/media/tableau_lod_fixed/)
+  - [詳細レベルの式 \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/calculations_calculatedfields_lod.htm)
+  - 
+
 
 ## log
 - トレーニングビデオやハンズオンなどで使うサンプルデータ「Sample- Superstore」は製品版にしか付属してない！？
@@ -51,30 +66,14 @@
 - [\#みんな大好きスーパーストアクイズ / Twitter](https://twitter.com/i/events/1256856941432672256)
 - tableau PublicではGoogleスプレッドシートに接続した場合、24時間に1回の頻度で更新される！？
 - 
-- 
+
 ## 興味深いViz
 - [プロフィール \- ben\.jones \| Tableau Public](https://public.tableau.com/app/profile/ben.jones#!/)
   - URLアクション、パラメーターフィルターの好例
   - [NYNJ Bridges \| Tableau Public](https://public.tableau.com/app/profile/ben.jones/viz/NYNJBridges/BridgesofNYNJ)
   - [Bridges in Washington \| Tableau Public](https://public.tableau.com/app/profile/ben.jones/viz/BridgesinWashington/Bridges)
-
-
-## webデータコネクタ
-official
-- [Web データ コネクタ \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/examples_web_data_connector.htm)
-  - > Tableau Server にデータ ソースまたはワークブックをパブリッシュする際、Web データ コネクタが Tableau Server のセーフ リストに追加されない限り、Tableau Server で抽出を更新できません。
-- Github: [Web Data Connector Home](https://tableau.github.io/webdataconnector/)
-  - [Get Started](https://tableau.github.io/webdataconnector/docs/)
-  - [WDC Tutorial](https://tableau.github.io/webdataconnector/docs/wdc_tutorial.html)
-
-article
-- [TableauのWebデータコネクタを作ってみる](https://www.cresco.co.jp/blog/entry/2857/)
-- [Tableau Web データ コネクタ（WDC）を使って自社データをTableau Desktopから接続してみた \- Qiita](https://qiita.com/yuji_saito/items/db42e5f110756dbf1078)
-- [Tableau Web Data Connector開発ことはじめ – リックソフト公式ブログ（Ricksoft Blog）](https://www.ricksoft.jp/blog/archives/8040/)
-  - SDK(シミュレーター)の使用方法
-- **[Tableau Webデータコネクタ でいくつかハマったからHello Worldまでまとめ \- Qiita](https://qiita.com/o0h/items/5201d36695299698f5b2)**
-  - 手順詳しい
 - 
+
 
 ## tips
 - [【Tableau】シート背景透過の設定方法](https://knowledge.insight-lab.co.jp/tableau/dashboard/transparent#:~:text=%E3%82%B7%E3%83%BC%E3%83%88%E3%81%AE%E8%83%8C%E6%99%AF%E3%82%92%E9%80%8F%E9%81%8E%E3%81%95%E3%81%9B%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E3%81%AF%E3%80%81%E6%9B%B8%E5%BC%8F,%E7%B7%A8%E9%9B%86%E3%81%99%E3%82%8B%E5%BF%85%E8%A6%81%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82&text=%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88%E3%81%AE%E5%A1%97%E3%82%8A%E3%81%A4%E3%81%B6%E3%81%97%E3%82%92,%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82)
@@ -98,10 +97,10 @@ article
 
 ### グラフの表示が小さいとき
 ref. [ウィンドウに合わせる](https://help.tableau.com/current/pro/desktop/ja-jp/environment_workspace.htm#:~:text=%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82-,%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%81%AB%E5%90%88%E3%82%8F%E3%81%9B%E3%82%8B,-%3A%20%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%81%AB%E8%A1%A8%E7%A4%BA)
-<video controls autoplay loop width="600" src='img/グラフの表示が小さいとき.webm'></video>
+<video controls autoplay loop width="600" src='img/memo/グラフの表示が小さいとき.webm'></video>
 
 ### リファレンスラインラベルの追加
-<video controls autoplay loop width="600" src='img/リファレンスライン.webm'></video>
+<video controls autoplay loop width="600" src='img/memo/リファレンスライン.webm'></video>
 
 ### 都道府県に地理的役割を追加する
 🔍[Tableau でマッピングを始める \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/buildexamples_maps.htm#%E5%9C%B0%E7%90%86%E7%9A%84%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AB%E5%9C%B0%E7%90%86%E7%9A%84%E5%BD%B9%E5%89%B2%E3%82%92%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%82%8B)
@@ -115,7 +114,7 @@ ref. [ウィンドウに合わせる](https://help.tableau.com/current/pro/deskt
 ### 非表示にした軸を再表示
 🔍[軸の編集 \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/formatting_editaxes.htm)
 
-<video controls autoplay loop width="600" src='img/非表示にした軸を再表示.webm'></video>
+<video controls autoplay loop width="600" src='img/memo/非表示にした軸を再表示.webm'></video>
 
 
 
@@ -147,43 +146,3 @@ ref. [ウィンドウに合わせる](https://help.tableau.com/current/pro/deskt
   - 
 - [Tableau の記事一覧 \| DevelopersIO](https://dev.classmethod.jp/tags/tableau/)
 - [Tableauナレッジ \- INSIGHT LAB](https://knowledge.insight-lab.co.jp/tableau/all)
-## 動画
-- [【Tableauの基本】これでわかるTableau Desktopハンズオン \- YouTube](https://www.youtube.com/watch?v=w3-iSVb_BXM)
-  - 13: ユニオン
-    - 他サーバから自動で取り込む
-  - 16: リレーションシップ
-    - 結合に馴染みがない場合
-    - 完全外部結合でデータを取得できる？
-    - 柔軟にデータを取得できる？
-  - 18: 結合
-    - これが理解できるならリレーションは必要ない？
-  - 22: [ライブ] or [抽出]
-    - ライブ：操作を行う度にデータを取りに行く？動作が遅くなる。
-    - 抽出：ローカルファイルや負荷をかけられないサーバーなど
-  - 25：フィルター
-    - 28：カラムのフィルタリング
-
-
-
-
-
-
-    ○ バンプチャート
-    
-
-地図
-
-    ○ ポイントマップ
-    ○ 比例シンボルマップ
-    ○ 色塗りマップ
-    ○ ヒートマップ
-    ○ 二重軸マップ
-
-
-集計表
-
-    ○ クロス集計表(テキストテーブル)
-    ○ ハイライト表
-    ○ ヒートマップ
-
-

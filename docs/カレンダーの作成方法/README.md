@@ -94,3 +94,11 @@
 
 - 使用したデータソース：[date.csv](https://github.com/arakaki-tokyo/tableau_learning/blob/main/data/date.csv)
 - Viz: 上述のViz[発展2: 日付を別のデータソースから組み合わせる](https://public.tableau.com/app/profile/.33622291/viz/Tips_16584759196560/2)シート
+
+
+## 前の週の同じ曜日との比較
+- 作成したViz：[Tips: 前の週の同じ曜日との比較 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/Tips_16587259523910/sheet0?publish=yes)
+
+ポイント
+- PCR陽性者数と日付を両方表示するため、上記の2重軸で月ラベルを表示するテクニックを使用。
+- 2重軸にするため、定数を行シェルフに追加するテクニックを使用。参照：[一般的なチャート#ドーナツチャート](../一般的なチャート#ドーナツチャート)
