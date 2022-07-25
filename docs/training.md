@@ -259,24 +259,84 @@
 
 
 ### <span id="cp1_13">1.13</span>　都道府県別の市区町村ごとの不動産取引価格
-- data: `付属データ/Chap01/`
-- Viz: 
+- data: `付属データ/Chap01/1.13_trade_prices`
+- Viz: [ch\.1\.13: 都道府県別の市区町村ごとの不動産取引価格 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_13/1_13?publish=yes)
+
+🌟ポイント
+- フィールドを複数選択 > 右クリック > [作成] > [結合済みフィールド]から**結合フィールド**を作成できる！
+
+<video controls autoplay loop width="600" src='img/training/1_13.webm'></video>
+
 
 ### <span id="cp1_14">1.14</span>　原産国ごとのコーヒー評価
-- data: `付属データ/Chap01/`
-- Viz: 
+- data: `付属データ/Chap01/1.14_coffee_quality.csv`
+- Viz: [ch\.1\.14: 原産国ごとのコーヒー評価 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_14/1_14?publish=yes)
+
+🌟ポイント
+- 二重軸(両側の軸を使う)と複合軸(一つの軸で複数フィールドを表現)を使いこなそう！
+
+<video controls autoplay loop width="600" src='img/training/1_14.webm'></video>
+
 
 ### <span id="cp1_15">1.15</span>　最大・最小の陽性者数をカレンダー形式で表示
-- data: `付属データ/Chap01/`
-- Viz: 
+- data: `付属データ/Chap01/1.15_pcr_positive_daily.csv`
+- Viz: [ch\.1\.15: 最大・最小の陽性者数をカレンダー形式で表示 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_15/1_15?publish=yes)
+
+🌟ポイント
+- WINDOW関数を使いこなそう！
+  - 動画では以下のフィールドを作成して、週ごとの最大と最小の曜日を色分けしている。
+```
+IF WINDOW_MAX(SUM([Pcr 検査陽性者数(単日)])) == SUM([Pcr 検査陽性者数(単日)]) THEN
+    1
+ELSEIF  WINDOW_MIN(SUM([Pcr 検査陽性者数(単日)])) == SUM([Pcr 検査陽性者数(単日)]) THEN
+    -1
+ELSE
+    0
+END
+```
+
+<video controls autoplay loop width="600" src='img/training/1_15.webm'></video>
+
+#### 別解
+- Viz: 前掲Vizの[別解](https://public.tableau.com/app/profile/.33622291/viz/ch_1_15/sheet1)シート
+- 以下の計算フィールドを作成する
+  - 名前：`max(week)`
+    - 式：`{ FIXED DATETRUNC('week', 日付): MAX([Pcr 検査陽性者数(単日)])}`
+  - 名前：`min(week)`
+    - 式：`{ FIXED DATETRUNC('week', 日付): MIN([Pcr 検査陽性者数(単日)])}`
+  - 名前：`色分け`
+    - 式：下記
+```
+IF SUM([Pcr 検査陽性者数(単日)]) == SUM([max(week)]) THEN
+    "最大"
+ELSEIF SUM([Pcr 検査陽性者数(単日)]) == SUM([min(week)]) THEN
+    "最小"
+ELSE
+    "その他"
+END
+```
 
 ### <span id="cp1_16">1.16</span>　アニメの種類別評価分布
-- data: `付属データ/Chap01/`
-- Viz: 
+- data: `付属データ/Chap01/1.16_anime.csv`
+- Viz: [ch\.1\.16: アニメの種類別評価分布 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_16/1_16?publish=yes)
+
+<video controls autoplay loop width="600" src='img/training/1_16.webm'></video>
 
 ### <span id="cp1_17">1.17</span>　セレブリティの年収ランキング
-- data: `付属データ/Chap01/`
-- Viz: 
+- data: `付属データ/Chap01/1.17_forbes_celebrity_100.csv`
+- Viz: [ch\.1\.17: セレブリティの年収ランキング \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_17/1_17?publish=yes)
+
+🌟ポイント
+- 簡易表計算でランクにした後、[表計算の編集]から[次を使用して計算]で[特定のディメンション]を選択し、[Name]と[Category]をチェックする
+  - 上で[Category]をチェックしない場合、「年ごとカテゴリーごと」のランキングとなる
+<video controls autoplay loop width="600" src='img/training/1_17_1.webm'></video>
+
+#### 別解
+- Viz: 前掲Vizの[別解](https://public.tableau.com/views/ch_1_17/sheet1?:language=ja-JP&publish=yes&:display_count=n&:origin=viz_share_link)シート
+- カテゴリーを色にドロップする際、[**属性**]を選択する。それによって簡易表計算のみでランキングのクロス表を作成しつつ、カテゴリーによる色分けを反映させることができる。
+
+<video controls autoplay loop width="600" src='img/training/1_17_2.webm'></video>
+
 
 ### <span id="cp1_18">1.18</span>　訪日外客数の推移
 - data: `付属データ/Chap01/`

@@ -56,6 +56,9 @@
     - [Tableau：分かりやすいLOD – EXCLUDE編 \| エクスチュア株式会社ブログ](https://ex-ture.com/blog/2019/03/15/tableau-lod-exclude/)
   - [Tableau – LOD計算\(FIXED, INCLUDE,EXCLUDE\)の使い方 \| ST\-Brain](https://st-brain.com/media/tableau_lod_fixed/)
   - [詳細レベルの式 \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/calculations_calculatedfields_lod.htm)
+- 表計算関数について
+  - [表計算関数 \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/functions_functions_tablecalculation.htm)
+  - [Tableau（タブロー） WINDOW\_関数をしっかりと理解する \| 株式会社ウェブ改善・分析企画開発リサーチ](https://web-kaizen.co.jp/2018/09/12/tableau-window-function/)
   - 
 
 
