@@ -59,7 +59,9 @@
 - 表計算関数について
   - [表計算関数 \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/functions_functions_tablecalculation.htm)
   - [Tableau（タブロー） WINDOW\_関数をしっかりと理解する \| 株式会社ウェブ改善・分析企画開発リサーチ](https://web-kaizen.co.jp/2018/09/12/tableau-window-function/)
-  - 
+- 属性について
+  - [属性を理解する\(Understand the Attribute Function\) \| Tableau Padawan's Tips & Tricks](http://tableaujpn.blogspot.com/2015/11/understand-attribute-function.html)
+- 
 
 
 ## log

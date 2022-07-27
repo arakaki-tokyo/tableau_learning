@@ -339,15 +339,24 @@ END
 
 
 ### <span id="cp1_18">1.18</span>　訪日外客数の推移
-- data: `付属データ/Chap01/`
-- Viz: 
+- data: `付属データ/Chap01/1.18_visitor_arrivals(2003_2020).xlsx`
+- Viz: [ch\.1\.18: 訪日外客数の推移 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_18/1_18?publish=yes)
 
+<video controls autoplay loop width="600" src='img/training/1_18.webm'></video>
 ### <span id="cp1_19">1.19</span>　選択したアニメを観た人が他に観たアニメ
-- data: `付属データ/Chap01/`
+- data: `付属データ/Chap01/1.19_anime`(データが多いので以下のVizではレコードを減らした)
+- Viz: [ch\.1\.19: 選択したアニメを観た人が他に観たアニメ \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_19/1_1?publish=yes)
 
+🌟ポイント
+- セットアクションでSet値を動的に変更できる！
+  - 予めセットを作成し、フィルターに設定しておく必要がある。
+
+<video controls autoplay loop width="600" src='img/training/1_19.webm'></video>
 
 ### <span id="cp1_20">1.20</span>　世界の電力普及率推移
-- data: `付属データ/Chap01/`
+- data: `付属データ/Chap01/1.20_access_to_electricity`
+- Viz: [ch\.1\.20: 世界の電力普及率推移 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_20/1_20?publish=yes)
+
 
 
 
