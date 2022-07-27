@@ -2,16 +2,16 @@
 - data: `付属データ/Chap01/`
 
 ## 目次
-- [Chapter 1](#cp1)　ビジュアル表現の再現
-    - [1.1](#cp1_1)　過去12カ月の月別降水量
-    - [1.2](#cp1_2)　キャンセル数と宿泊数の月別推移
-    - [1.3](#cp1_3)　市区町村別のAirbnbホスト数とその評価
-    - [1.4](#cp1_4)　幸福度スコア7項目の国別一覧
-    - [1.5](#cp1_5)　年代・地域別の投票率
-    - [1.6](#cp1_6)　東京都の平均不動産価格と65歳以上の人口割合の関係
-    - [1.7](#cp1_7)　日別の売買株数と株価
-    - [1.8](#cp1_8)　前週との人数増減
-    - [1.9](#cp1_9)　都道府県別の不動産価格と面積
+- [Chapter 1](#cp1) 　ビジュアル表現の再現
+    - [1.1](#cp1_1) 　過去12カ月の月別降水量
+    - [1.2](#cp1_2) 　キャンセル数と宿泊数の月別推移
+    - [1.3](#cp1_3) 　市区町村別のAirbnbホスト数とその評価
+    - [1.4](#cp1_4) 　幸福度スコア7項目の国別一覧
+    - [1.5](#cp1_5) 　年代・地域別の投票率
+    - [1.6](#cp1_6) 　東京都の平均不動産価格と65歳以上の人口割合の関係
+    - [1.7](#cp1_7) 　日別の売買株数と株価
+    - [1.8](#cp1_8) 　前週との人数増減
+    - [1.9](#cp1_9) 　都道府県別の不動産価格と面積
     - [1.10](#cp1_10)　棒グラフによる絵文字一覧
     - [1.11](#cp1_11)　ホテルの種類ごとの月別宿泊率
     - [1.12](#cp1_12)　ブルースとヒップホップの音楽作品における人気の分布
@@ -23,6 +23,7 @@
     - [1.18](#cp1_18)　訪日外客数の推移
     - [1.19](#cp1_19)　選択したアニメを観た人が他に観たアニメ
     - [1.20](#cp1_20)　世界の電力普及率推移
+    - [COLUMN](#column)
 
 
 
@@ -34,7 +35,7 @@
 🌟ポイント
 - 「過去◯ヶ月」のようなフィルタリングは[相対日付]で手軽に実現できる
 
-<video controls autoplay loop width="600" src='img/相対日付でのフィルタリング.webm'></video>
+<video controls loop width="600" poster='img/1_1.png' src='img/1_1.webm'></video>
 
 
 ## <span id="cp1_2">1.2</span>　キャンセル数と宿泊数の月別推移
@@ -47,7 +48,7 @@
 - ディメンションには**別名**を付けることができる
 - フィールドを**右クリック**しながらシェルフにドロップすることで、集計の種類を指定して配置できる
 
-<video controls autoplay loop width="600" src='img/1_2.webm'></video>
+<video controls loop width="600" poster='img/1_2.png' src='img/1_2.webm'></video>
 
 
 
@@ -59,7 +60,7 @@
 - 「カウント」と「個別のカウント」の違いを理解しよう
 - 割合などを表すフィールドの集計方法に注意しよう(デフォルトで平均にしておくとよい)
 
-<video controls autoplay loop width="600" src='img/1_3.webm'></video>
+<video controls loop width="600" poster='img/1_3.png' src='img/1_3.webm'></video>
 
 
 ## <span id="cp1_4">1.4</span>　幸福度スコア7項目の国別一覧
@@ -69,7 +70,7 @@
 🌟ポイント
 - 複数メジャーのクロス集計表の作成手順をおさえる！
  
-<video controls autoplay loop width="600" src='img/1_4.webm'></video>
+<video controls loop width="600" poster='img/1_4.png' src='img/1_4.webm'></video>
 
 ## <span id="cp1_5">1.5</span>　年代・地域別の投票率
 - data: `付属データ/Chap01/1.5_election_shugiin_h29.csv`
@@ -78,7 +79,7 @@
 🌟ポイント
 - 接続したデータが[Tidy](https://ja.wikipedia.org/wiki/Tidy_data)でない場合、ピボット機能で前処理する必要がある
 
-<video controls autoplay loop width="600" src='img/1_5.webm'></video>
+<video controls loop width="600" poster='img/1_5.png' src='img/1_5.webm'></video>
 
 🚀発展
 - [Tips: パラメータ\(スライダー\)の値によって色分けする方法 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/Tips_16583674842780/sheet0?publish=yes)
@@ -98,7 +99,7 @@
 🌟ポイント
 - 直近のデータのみ表示したい場合、日付型のフィールドでフィルターを作成する際「ワークブックを開いたときに最新の日付値にフィルターします」をチェックする
 
-<video controls autoplay loop width="600" src='img/1_7.webm'></video>
+<video controls loop width="600" poster='img/1_7.png' src='img/1_7.webm'></video>
 
 ## <span id="cp1_8">1.8</span>　前週との人数増減
 - data: `付属データ/Chap01/1.8_pcr_positive_daily.csv`
@@ -118,7 +119,7 @@
 - tableau publicでは選択できる形状が「規定」と「塗りつぶし」しかないが、形状の追加は有償版と同様に可能。
   - [カスタム形状の使用](https://help.tableau.com/current/pro/desktop/ja-jp/viewparts_marks_markproperties.htm#%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E5%BD%A2%E7%8A%B6%E3%81%AE%E4%BD%BF%E7%94%A8)
 
-<video controls autoplay loop width="600" src='img/1_8.webm'></video>
+<video controls loop width="600" poster='img/1_8.png' src='img/1_8.webm'></video>
 
 ### 別解1
 - 「形状」はセルの中央に配置されるため、ラベルとの重複を避けようとすると不自然な空白ができてしまう。
@@ -162,7 +163,7 @@
   - 参照：[一般的なチャート#100積み上げ棒グラフ](一般的なチャート#100積み上げ棒グラフ)
 
 
-<video controls autoplay loop width="600" src='img/1_8.webm'></video>
+<video controls loop width="600" poster='img/1_11.png' src='img/1_11.webm'></video>
 
 
 ## <span id="cp1_12">1.12</span>　ブルースとヒップホップの音楽作品における人気の分布
@@ -172,7 +173,7 @@
 🌟ポイント
 - 面グラフの積み上げを解除するには、メニューバー[分析] > [スタックマーク] > [オフ]を選択
 
-<video controls autoplay loop width="600" src='img/1_12.webm'></video>
+<video controls loop width="600" poster='img/1_12.png' src='img/1_12.webm'></video>
 
 
 
@@ -183,7 +184,7 @@
 🌟ポイント
 - フィールドを複数選択 > 右クリック > [作成] > [結合済みフィールド]から**結合フィールド**を作成できる！
 
-<video controls autoplay loop width="600" src='img/1_13.webm'></video>
+<video controls loop width="600" poster='img/1_13.png' src='img/1_13.webm'></video>
 
 
 ## <span id="cp1_14">1.14</span>　原産国ごとのコーヒー評価
@@ -193,7 +194,7 @@
 🌟ポイント
 - 二重軸(両側の軸を使う)と複合軸(一つの軸で複数フィールドを表現)を使いこなそう！
 
-<video controls autoplay loop width="600" src='img/1_14.webm'></video>
+<video controls loop width="600" poster='img/1_14.png' src='img/1_14.webm'></video>
 
 
 ## <span id="cp1_15">1.15</span>　最大・最小の陽性者数をカレンダー形式で表示
@@ -213,7 +214,7 @@ ELSE
 END
 ```
 
-<video controls autoplay loop width="600" src='img/1_15.webm'></video>
+<video controls loop width="600" poster='img/1_15.png' src='img/1_15.webm'></video>
 
 ### 別解
 - Viz: 前掲Vizの[別解](https://public.tableau.com/app/profile/.33622291/viz/ch_1_15/sheet1)シート
@@ -238,7 +239,7 @@ END
 - data: `付属データ/Chap01/1.16_anime.csv`
 - Viz: [ch\.1\.16: アニメの種類別評価分布 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_16/1_16?publish=yes)
 
-<video controls autoplay loop width="600" src='img/1_16.webm'></video>
+<video controls loop width="600" poster='img/1_16.png' src='img/1_16.webm'></video>
 
 ## <span id="cp1_17">1.17</span>　セレブリティの年収ランキング
 - data: `付属データ/Chap01/1.17_forbes_celebrity_100.csv`
@@ -247,20 +248,20 @@ END
 🌟ポイント
 - 簡易表計算でランクにした後、[表計算の編集]から[次を使用して計算]で[特定のディメンション]を選択し、[Name]と[Category]をチェックする
   - 上で[Category]をチェックしない場合、「年ごとカテゴリーごと」のランキングとなる
-<video controls autoplay loop width="600" src='img/1_17_1.webm'></video>
+<video controls loop width="600" poster='img/1_17.png' src='img/1_17_1.webm'></video>
 
 ### 別解
 - Viz: 前掲Vizの[別解](https://public.tableau.com/views/ch_1_17/sheet1?:language=ja-JP&publish=yes&:display_count=n&:origin=viz_share_link)シート
 - カテゴリーを色にドロップする際、[**属性**]を選択する。それによって簡易表計算のみでランキングのクロス表を作成しつつ、カテゴリーによる色分けを反映させることができる。
 
-<video controls autoplay loop width="600" src='img/1_17_2.webm'></video>
+<video controls loop width="600" poster='img/1_17.png' src='img/1_17_2.webm'></video>
 
 
 ## <span id="cp1_18">1.18</span>　訪日外客数の推移
 - data: `付属データ/Chap01/1.18_visitor_arrivals(2003_2020).xlsx`
 - Viz: [ch\.1\.18: 訪日外客数の推移 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_18/1_18?publish=yes)
 
-<video controls autoplay loop width="600" src='img/1_18.webm'></video>
+<video controls loop width="600" poster='img/1_18.png' src='img/1_18.webm'></video>
 ## <span id="cp1_19">1.19</span>　選択したアニメを観た人が他に観たアニメ
 - data: `付属データ/Chap01/1.19_anime`(データが多いので以下のVizではレコードを減らした)
 - Viz: [ch\.1\.19: 選択したアニメを観た人が他に観たアニメ \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_19/1_1?publish=yes)
@@ -269,8 +270,17 @@ END
 - セットアクションでSet値を動的に変更できる！
   - 予めセットを作成し、フィルターに設定しておく必要がある。
 
-<video controls autoplay loop width="600" src='img/1_19.webm'></video>
+<video controls loop width="600" poster='img/1_19.png' src='img/1_19.webm'></video>
 
 ## <span id="cp1_20">1.20</span>　世界の電力普及率推移
 - data: `付属データ/Chap01/1.20_access_to_electricity`
 - Viz: [ch\.1\.20: 世界の電力普及率推移 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_20/1_20?publish=yes)
+
+## <span id="column">COLUMN</span>
+- data: 
+  - `付属データ/Chap01/radiation_temperature(2015_2020).csv`
+  - `付属データ/Chap01/rainfall_tokyo(2000_2021).csv`
+- Viz: [ch\.1: COLUMN \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_1_COLUMN/1_2)
+
+
+
