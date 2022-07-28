@@ -26,55 +26,92 @@
 
 
 ## <span id="cp2_1">2.1</span>　積み上げ棒グラフで各棒の値を表示
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.1_trade_prices_tokyo(2020).csv`
+- Viz: [ch\.2\.1: 積み上げ棒グラフで各棒の値を表示 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_1/2_1?publish=yes)
 
 🌟ポイント
-- 
+- リファレンスラインの活用
 
-<video controls loop width="600" poster='img/1_1.png' src='img/1_1.webm'></video>
 
 ## <span id="cp2_2">2.2</span>　折れ線グラフでマークを強調
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.2_pcr_positive_daily.csv`
+- Viz: [ch\.2\.2: 折れ線グラフでマークを強調 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_2/sheet0?publish=yes)
 
 🌟ポイント
-- 
+- 二重軸によって1つのチャートとして強調する
+
+<video controls loop width="600" poster='img/2_2.png' src='img/2_2.webm'></video>
 
 ## <span id="cp2_3">2.3</span>　スケールの異なるメジャーを並べた折れ線グラフ
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.3_sp500_historical_quotes(2010_2020).csv`
+- Viz: [ch\.2\.3: スケールの異なるメジャーを並べた折れ線グラフ \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_3/sheet0?publish=yes)
 
 🌟ポイント
-- 
+- 各行または列の独立した軸範囲
+- 最小値/最大値のみラベルを表示
+
+
+### 別解
+- WINDOW関数によって最小値と最大値のフィールドを作成する。
+  - 式：下記
+- Viz: 前掲Vizの[別解シート](https://public.tableau.com/views/ch_2_3/sheet2?:language=ja-JP&publish=yes&:display_count=n&:origin=viz_share_link)
+
+```
+IF WINDOW_MAX(AVG([Close])) == AVG([Close]) THEN AVG([Close])
+ELSEIF WINDOW_MIN(AVG([Close])) == AVG([Close]) THEN AVG([Close])
+ELSE NULL
+END
+```
+
 
 ## <span id="cp2_4">2.4</span>　メジャーネームと指定の小計を表示したクロス集計
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.4_hittakuri_tokyo(2019).csv`
+- Viz: [ch\.2\.4: メジャーネームと指定の小計を表示したクロス集計 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_4/sheet0?publish=yes)
 
 🌟ポイント
-- 
+- 小計の表示／非表示の指定
+- クロス集計表におけるメジャーのヘッダー
+
+<video controls loop width="600" poster='img/2_3.png' src='img/2_3.webm'></video>
 
 ## <span id="cp2_5">2.5</span>　指定の3段階で色分けしたハイライト表
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.5_access_to_electricity_%_of_population_region.csv`
+- Viz: [2\.5: 指定の3段階で色分けしたハイライト表 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/2_53_16589947691820/sheet0?publish=yes)
 
 🌟ポイント
-- 
+- 色に使うフィールドが非連続の場合、マークタイプを四角にしても背景全体を塗りつぶしできない
+  - 🔍参照：[正方形のマークがセルの背景を均一に塗りつぶさない \| Tableau Software](https://kb.tableau.com/articles/issue/square-mark-does-not-uniformly-fill-background-of-cell?lang=ja-jp)
+- 動画のテクニックを使うか、フィードを連続データにする
+
+```
+IF AVG([Access to Electricity (% of population)]) < 70 THEN "LOW"
+ELSEIF AVG([Access to Electricity (% of population)]) < 90 THEN "MID"
+ELSE "HIGH"
+END
+```
+
+<video controls loop width="600" poster='img/2_5.png' src='img/2_5.webm'></video>
+
 
 ## <span id="cp2_6">2.6</span>　百万の単位でラベル表記し、データが空でもすべての値を表示
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.6_trade_prices_tokyo(2020).csv`
+- Viz: [ch\.2\.6: 百万の単位でラベル表記し、データが空でもすべての値を表示 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_6/sheet0?publish=yes)
 
 🌟ポイント
-- 
+- メニューバー[分析] > [表のレイアウト]より、空の行や列の表示／非表示を切り替える
+
+<video controls loop width="600" poster='img/2_6.png' src='img/2_6.webm'></video>
+
 
 ## <span id="cp2_7">2.7</span>　複数のディメンションがある棒グラフの並べ替え
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.7_spotify_music`
+- Viz: [ch\.2\.7: 複数のディメンションがある棒グラフの並べ替え \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_7/sheet0?publish=yes)
 
 🌟ポイント
-- 
+- 結合済みフィールドで並べ替えて、そのヘッダーを非表示にする
+
+<video controls loop width="600" poster='img/2_7.png' src='img/2_7.webm'></video>
+
 
 ## <span id="cp2_8">2.8</span>　データがないセルに0を表示
 - data: `付属データ/Chap02/`
