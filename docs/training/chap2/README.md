@@ -267,25 +267,35 @@ END
 <video controls loop width="600" poster='img/2_17.png' src='img/2_17.webm'></video>
 
 ## <span id="cp2_18">2.18</span>　異なるデータの異なるフィールド値同士の比較
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.18_airbnb_reviews`
+- Viz: [ch\.2\.18: 異なるデータの異なるフィールド値同士の比較 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_18/sheet1?publish=yes)
 
 🌟ポイント
-- 
+- データブレンディングの活用
+  - 🔍参照：[メモ|データブレンディングについて](/tableau_learning/memo#:~:text=Padawan’s%20Tips%20%26%20Tricks-,データブレンディングについて,-データのブレンド)
+- 今回の例では3つのデータソースがそれぞれ異なるフィールド・粒度で関連しており、リレーションとブレンディングを両方使用している。動画はブレンディングからの操作方法。
+- 頑張って結合で扱うことも可能。下記Vizをダウンロードしてデータソースシートを見よ。
+  - [ch\.2\.18: データソースを結合した例 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_18_16594281499720/1?publish=yes)
+
+<video controls loop width="600" poster='img/2_18.png' src='img/2_18.webm'></video>
+
 
 ## <span id="cp2_19">2.19</span>　選択フィルター値を挿入したタイトル
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.19_world_happiness(2020).csv`
+- Viz: [ch\.2\.19: 選択フィルター値を挿入したタイトル \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_19/sheet3?publish=yes)
 
 🌟ポイント
-- 
+- フィルターの値はシートのタイトルに挿入できる！(ダッシュボードのタイトルには挿入できない)
+
+<video controls loop width="600" poster='img/2_19.png' src='img/2_19.webm'></video>
+
 
 ## <span id="cp2_20">2.20</span>　異なるダッシュボードへのフィルターアクション
-- data: `付属データ/Chap02/`
-- Viz: 
+- data: `付属データ/Chap02/2.19_world_happiness(2020).csv`
+- Viz: [ch\.2\.20: 異なるダッシュボードへのフィルターアクション \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_2_20/sheet0?publish=yes)
 
 🌟ポイント
-- 
+- フィルターアクションが適用されているシートから、別のシートにも適用することができる
 
 
 
