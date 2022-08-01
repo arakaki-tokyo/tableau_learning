@@ -61,7 +61,15 @@
   - [Tableau（タブロー） WINDOW\_関数をしっかりと理解する \| 株式会社ウェブ改善・分析企画開発リサーチ](https://web-kaizen.co.jp/2018/09/12/tableau-window-function/)
 - 属性について
   - [属性を理解する\(Understand the Attribute Function\) \| Tableau Padawan's Tips & Tricks](http://tableaujpn.blogspot.com/2015/11/understand-attribute-function.html)
-- 
+- データブレンディングについて
+  - [データのブレンド \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/multiple_connections.htm)
+  - [データブレンドについて理解する \#tableau \| DevelopersIO](https://dev.classmethod.jp/articles/tableau_qualified_associate_data-blend/)
+  - [Tableau 8つのハードルを越える⑳「ブレンディング（データブレンド） その１ 導入編」｜ritz\_Tableu \| Satoshi Ganeko｜note](https://note.com/ritz_tableau/n/n950eaac03128)
+    - [Tableau 8つのハードルを越える㉑「ブレンディング（データブレンド） その２ 基礎編」｜ritz\_Tableu \| Satoshi Ganeko｜note](https://note.com/ritz_tableau/n/n2723e0e396eb)
+    - [Tableau 8つのハードルを越える㉒「ブレンディング（データブレンド） その３　ブレンディングの真価」｜ritz\_Tableu \| Satoshi Ganeko｜note](https://note.com/ritz_tableau/n/n8b5f0dd603ce)
+    - [Tableau 8つのハードルを越える㉓「ブレンディング（データブレンド） その４　ブレンドリレーションシップの組み方」｜ritz\_Tableu \| Satoshi Ganeko｜note](https://note.com/ritz_tableau/n/na284d437605e)
+    - [Tableau 8つのハードルを越える㉔「ブレンディング（データブレンド） その５ 計算式とフィルターについて」｜ritz\_Tableu \| Satoshi Ganeko｜note](https://note.com/ritz_tableau/n/ndef0d18d9ab2)
+  - 
 
 
 ## log
