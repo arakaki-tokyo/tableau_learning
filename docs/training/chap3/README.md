@@ -65,36 +65,49 @@
 
 
 ## <span id="cp3_6">3.6</span>　1つのデータにあってもう1つのデータにない値は？
-- data: `付属データ/Chap03/`
-- Viz: 
+- data: `付属データ/Chap03/3.6_world_happiness(2018_2019)`
+- 回答1：結合を使う方法
+  - Viz: [ch\.3\.6: 1つのデータにあってもう1つのデータにない値は？\(結合を使う方法\) \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_3_611/sheet0?publish=yes)
+  - 2018年と2019年のデータソースを左外部結合し、2018年の国名の一覧に対してフィルターで2019年の国名がNULLのレコード以外を除外する。
+- 回答2：ユニオンを使う方法
+  - Viz: [ch\.3\.6: 1つのデータにあってもう1つのデータにない値は？\(ユニオンを使う方法\) \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_3_611_16595884230690/1?publish=yes)
+  - 方法1：以下でフィルター
+    ```
+    SUM(IIF([年] == 2018, 1, 0)) = 1
+    AND 
+    SUM(IIF([年] == 2019, 1, 0)) = 0
+    ```
+  - 方法2：以下でフィルター
+    - 国名のカウントが2より小さい
+    - 2018年
 
-🌟ポイント
-- 
 
 ## <span id="cp3_7">3.7</span>　金額上位10000の取引が占める割合が最も高い市区町村は？
-- data: `付属データ/Chap03/`
-- Viz: 
+- data: `付属データ/Chap03/3.7_trade_prices(2020).csv`
+- Viz: [ch\.3\.7: 金額上位10000の取引が占める割合が最も高い市区町村は？ \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_3_710000/sheet0?publish=yes)
 
 🌟ポイント
-- 
+- 元のデータにindexなどのユニークなメジャーがあれば、ディメンションに変更して「特定のメジャーの上位〇〇」などのセットを作ることができる
+  - そのようなメジャーがない場合には実現困難
+
 
 ## <span id="cp3_8">3.8</span>　GDPと幸福度の相関が高い地域グループは？
-- data: `付属データ/Chap03/`
-- Viz: 
+- data: `付属データ/Chap03/3.8_world_happiness(2020).csv`
+- Viz: [ch\.3\.8: GDPと幸福度の相関が高い地域グループは？ \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_3_8GDP/1?publish=yes)
 
 🌟ポイント
-- 
+- 傾向線の説明をラベルなどで常に表示しておくことはできない…
 
 ## <span id="cp3_9">3.9</span>　GDPと寿命と都市化率がすべて上位5以内の国は？
-- data: `付属データ/Chap03/`
-- Viz: 
+- data: `付属データ/Chap03/3.9_world`
+- Viz: [ch\.3\.9: GDPと寿命と都市化率がすべて上位5以内の国は？ \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_3_9GDP5/1?publish=yes)
 
 🌟ポイント
-- 
+- セットの結合の活用
 
 ## <span id="cp3_10">3.10</span>　入院治療を要する者のうち重症者の割合は？
-- data: `付属データ/Chap03/`
-- Viz: 
+- data: `付属データ/Chap03/3.10_covid19`
+- Viz: [ch\.3\.10: 入院治療を要する者のうち重症者の割合は？ \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/ch_3_10/sheet0?publish=yes)
 
 🌟ポイント
 - 
