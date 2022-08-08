@@ -69,7 +69,9 @@
     - [Tableau 8つのハードルを越える㉒「ブレンディング（データブレンド） その３　ブレンディングの真価」｜ritz\_Tableu \| Satoshi Ganeko｜note](https://note.com/ritz_tableau/n/n8b5f0dd603ce)
     - [Tableau 8つのハードルを越える㉓「ブレンディング（データブレンド） その４　ブレンドリレーションシップの組み方」｜ritz\_Tableu \| Satoshi Ganeko｜note](https://note.com/ritz_tableau/n/na284d437605e)
     - [Tableau 8つのハードルを越える㉔「ブレンディング（データブレンド） その５ 計算式とフィルターについて」｜ritz\_Tableu \| Satoshi Ganeko｜note](https://note.com/ritz_tableau/n/ndef0d18d9ab2)
-  - 
+- フィルターについて
+  - [フィルターと詳細レベルの式 \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/calculations_calculatedfields_lod_filters.htm?)
+  - [コンテキスト フィルターの使用 \- Tableau](https://help.tableau.com/current/pro/desktop/ja-jp/filtering_context.htm?)
 
 
 ## log
@@ -131,8 +133,31 @@ ref. [ウィンドウに合わせる](https://help.tableau.com/current/pro/deskt
 
 
 
+## 試験
+### [Tableau Desktop Specialist](https://www.tableau.com/ja-jp/learn/certification/desktop-specialist)
+- [試験ガイド](https://mkt.tableau.com/files/TableauDesktopSpecialist_ExamGuide_JP.pdf)
+- 受験料: $100
+- 推奨される製品使用経験: 3 か月以上
+- 提供言語: 英語、日本語、中国語 (簡体字)
+- 試験時間: 60 分
+- 設問形式: 択一、複数解答
+- 問題数: 45 問 (得点対象 40 問、得点対象外 5 問)
+- 試験の実施方法: 試験センターとオンライン試験
 
 
+### [Tableau Certified Data Analyst](https://www.tableau.com/ja-jp/learn/certification/certified-data-analyst#preparation)
+- [試験ガイド](https://mkt.tableau.com/files/TableauCertifiedDataAnalyst_ExamGuide_ja-JP.pdf)
+- 受験料: $250
+- 推奨される製品使用経験: 6 か月以上
+- 提供言語:  英語、日本語 (リリース日: 7 月 7 日)
+- 試験時間: 120 分
+- 設問形式:
+  - 知識問題: 択一、複数選択、アクティブ画面 (リスト作成、ドラッグ & ドロップ、ホットエリアを含む)。 [デモ動画](https://mkt.tableau.com/files/TableauCertifiedDataAnalyst_InteractiveTutorial_ja-jp.mp4)
+  - 実技問題: ハンズオンラボ。[デモ動画](https://mkt.tableau.com/files/TableauCertifiedDataAnalyst_PBTTutorial_ja-jp.mp4)
+- 問題数: 
+  - 得点対象: 知識問題 30 問、ハンズオンラボ 1 セッション (課題数 10 ～ 11)
+  - 得点対象外:  最大 15 問 (知識問題とハンズオンラボの課題を含む)
+- 試験の実施方法: 試験センターとオンライン試験
 ---
 ---
 ---
