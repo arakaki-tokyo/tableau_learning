@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
+# 学習ロードマップ
+初めてTableau Desktopを使い始めてからの学習記録です。
+これから使い始めようという方の参考になれば幸いです。
 
-You can use the [editor on GitHub](https://github.com/arakaki-tokyo/tableau_learning/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+以下ではTableau DesktopのことをTableauと表記します。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## STEP 0: Tableau Publicのインストール
+以下のサイトからTableau Publicをインストールしましょう。
 
-### Markdown
+[Free Data Visualization Software \| Tableau Public](https://public.tableau.com/s/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## STEP 1: How-to Videos
+Tableau Publicの学習コンテンツである[How\-to Videos](https://public.tableau.com/en-us/s/resources)に沿って、Tableauを操作してみましょう。
 
-```markdown
-Syntax highlighted code block
+▶ [How\-to Videos 内容まとめ \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/How-to_Videos)
 
-# Header 1
-## Header 2
-### Header 3
+## STEP 1.5: ホワイトペーパーを見てみる
+[ホワイトペーパー](https://www.tableau.com/ja-jp/learn/whitepapers)とはTableauが発信する製品の特徴・使い方・ベストプラクティス等に関する記事です。
+ざっと流し読みして雰囲気を掴みましょう。
+この段階で熟読する必要はありません。ある程度操作方法に慣れた頃に改めて目を通すと、デザインやUIの考え方が実感を伴って理解できるでしょう。
 
-- Bulleted
-- List
+▶ [ホワイトペーパーガイド \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/white-paper_guide)
 
-1. Numbered
-2. List
+## STEP 2: 入門書を通して実践してみる
+Tableauのオフィシャルサイトでは無料の学習コンテンツが充実しているように見えますが、その実あまり効率的な学習に資するものではありません。(個人の見解です)
+有料のプログラムもありますが、とても高いです。(個人の見解です)
 
-**Bold** and _Italic_ and `Code` text
+そのため、早い段階で数千円の入門書を購入して学習した方が、結果として時間を含めた費用対効果の面で安上がりです。(個人のｒｙ)
 
-[Link](url) and ![Image](src)
-```
+私は以下の書籍に沿って、手を動かしながら基本的な操作方法を習得しました。
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+[Tableauによる最強・最速のデータ可視化テクニック 第2版 ～データ加工からダッシュボード作成まで～（松島 七衣）｜翔泳社の本](https://www.shoeisha.co.jp/book/detail/9784798173306)
 
-### Jekyll Themes
+▶ [一般的なチャートの作成方法 \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/%E4%B8%80%E8%88%AC%E7%9A%84%E3%81%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arakaki-tokyo/tableau_learning/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+なお、上記書籍ではTableauの製品版に付属しているサンプルデータを使用しています。
+Tableau Publicには付属していないので、よろしければ以下をご活用ください。
 
-### Support or Contact
+- [tableau\_learning/サンプル \- スーパーストア\.xls at main · arakaki\-tokyo/tableau\_learning](https://github.com/arakaki-tokyo/tableau_learning/blob/main/data/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%20-%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%83%88%E3%82%A2.xls)
+- [tableau\_learning/Sample \- Superstore\.xls at main · arakaki\-tokyo/tableau\_learning](https://github.com/arakaki-tokyo/tableau_learning/blob/main/data/Sample%20-%20Superstore.xls)
+## STEP 3: 問題集を通して実践してみる
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+STEP 2で一通りの操作方法を習得したつもりになっています。
+それが本当に習得できているか、定着しているか、抜け漏れはないか、実際の問題に応用できるか、を確かめるために問題集形式の書籍の購入をお勧めします。
+
+私は以下の書籍を使用しました。
+
+[Tableauユーザーのための伝わる！わかる！データ分析×ビジュアル表現トレーニング ～演習で身につく実践的な即戦力スキル～（松島 七衣）｜翔泳社の本](https://www.shoeisha.co.jp/book/detail/9784798169910)
+
+▶ [TRAINING \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/training/#cp0_5)
+
+
+## APPENDIX 1
+STEP2, 3を実践しながら、自分の中でも「こんなチャート・ダッシュボードを作りたい」というイメージがどんどん膨らんでくるかと思います。
+書籍に沿った学習だけでなく、このような発想を形にする練習も並行して行うとより力がつくでしょう。
+
+- [カレンダーの作成方法 \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/)
+- [市区町村のマップデータを作成する方法 \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/%E5%B8%82%E5%8C%BA%E7%94%BA%E6%9D%91%E3%81%AE%E3%83%9E%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%82%BF)
+- [Tips: パラメータを使用して色分け項目を切り替える方法 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/Tips_16583060444810/2)
+- [Tips: パラメータ\(スライダー\)の値によって色分けする方法 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/Tips_16583674842780/sheet0)
+- [Tips: 前の週の同じ曜日との比較 \| Tableau Public](https://public.tableau.com/app/profile/.33622291/viz/Tips_16587259523910/sheet0)
+
+
+## APPENDIX 2
+Tableauはパワフルな集計機能、可視化機能を有しますが、「特定の値を算出する」という用途には不向きなことがあります。
+また、Tableau Publicのみを使う場合には、データの前処理を別途行いたいこともあります。
+
+それらの場合に対応するため、プログラミング言語でのデータの加工・分析のスキルがあればなお良いでしょう。
+
+- データの前処理の例
+  - [tableau\_learning/市区町村のポリゴン作成\.ipynb at main · arakaki\-tokyo/tableau\_learning](https://github.com/arakaki-tokyo/tableau_learning/blob/main/data/%E5%B8%82%E5%8C%BA%E7%94%BA%E6%9D%91%E3%81%AE%E3%83%9D%E3%83%AA%E3%82%B4%E3%83%B3%E4%BD%9C%E6%88%90.ipynb)
+  - [tableau\_learning/日付だけのデータソース作成\.ipynb at main · arakaki\-tokyo/tableau\_learning](https://github.com/arakaki-tokyo/tableau_learning/blob/main/data/%E6%97%A5%E4%BB%98%E3%81%A0%E3%81%91%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BD%E3%83%BC%E3%82%B9%E4%BD%9C%E6%88%90.ipynb)
+- 特定の値を求める例
+  - [tableau\_learning/ch3\_15\.ipynb at main · arakaki\-tokyo/tableau\_learning](https://github.com/arakaki-tokyo/tableau_learning/blob/main/docs/training/chap3/ch3_15.ipynb)
