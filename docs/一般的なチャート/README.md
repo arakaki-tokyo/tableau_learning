@@ -55,7 +55,7 @@ Viz: [一般的なチャートまとめ \| Tableau Public](https://public.tablea
 ## 基本チャート
 
 ### 円グラフ
-<video controls autoplay loop width="600" src='img/一般的なチャート/円グラフ.webm'></video>
+<video controls loop width="600" src='img/円グラフ.webm'></video>
 
 
 
@@ -70,7 +70,7 @@ Viz: [一般的なチャートまとめ \| Tableau Public](https://public.tablea
 
 ### 一つの軸で複数メジャーを扱う
 #### 方法1
-<video controls autoplay loop width="600" src='img/一般的なチャート/一つの軸で複数メジャーを扱う1.webm'></video>
+<video controls loop width="600" src='img/一つの軸で複数メジャーを扱う1.webm'></video>
 
 
 
@@ -82,7 +82,7 @@ Viz: [一般的なチャートまとめ \| Tableau Public](https://public.tablea
 
 
 #### 方法2
-<video controls autoplay loop width="600" src='img/一般的なチャート/一つの軸で複数メジャーを扱う2.webm'></video>
+<video controls loop width="600" src='img/一つの軸で複数メジャーを扱う2.webm'></video>
 
 
 
@@ -96,7 +96,7 @@ Viz: [一般的なチャートまとめ \| Tableau Public](https://public.tablea
 
 ### スパークライン
 MEMO: 「軸の編集」から「各行または列の独立した軸範囲」をチェック
-<video controls autoplay loop width="600" src='img/一般的なチャート/スパークライン.webm'></video>
+<video controls loop width="600" src='img/スパークライン.webm'></video>
 
 
 
@@ -108,7 +108,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
 
 
 ### ガントチャート
-<video controls autoplay loop width="600" src='img/一般的なチャート/ガントチャート.webm'></video>
+<video controls loop width="600" src='img/ガントチャート.webm'></video>
 
 
 
@@ -120,7 +120,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
 
 
 ### ドーナツチャート
-<video controls autoplay loop width="600" src='img/一般的なチャート/ドーナツチャート.webm'></video>
+<video controls loop width="600" src='img/ドーナツチャート.webm'></video>
 
 
 
@@ -132,7 +132,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
 
 
 ### 並列棒グラフ
-<video controls autoplay loop width="600" src='img/一般的なチャート/並列棒グラフ.webm'></video>
+<video controls loop width="600" src='img/並列棒グラフ.webm'></video>
 
 
 
@@ -161,7 +161,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
 - [Understanding and Using Bullet Graphs \| Tableau](https://www.tableau.com/data-insights/reference-library/visual-analytics/charts/bullet-graphs)
   - 悪い例
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/ブレットグラフ.webm'></video>
+<video controls loop width="600" src='img/ブレットグラフ.webm'></video>
 
 
 
@@ -180,7 +180,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
   - 必要に応じて集計方法も変更する
 - 背景として割合を表す色を設定する場合([分布バンド])も同じ手順・注意点
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/ブレットグラフ_表示形式を使わない方法.webm'></video>
+<video controls loop width="600" src='img/ブレットグラフ_表示形式を使わない方法.webm'></video>
 
 
 
@@ -195,7 +195,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
 🌟ポイント
 - [軸の同期]を忘れずに！
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/Bar in Barhグラフ.webm'></video>
+<video controls loop width="600" src='img/Bar in Barhグラフ.webm'></video>
 
 
 
@@ -214,7 +214,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
   - [色]分けに使うディメンションを変えることを想定する場合は[セル]に
   - 表の形を変えることを想定する場合は[カテゴリ]に
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/100％積み上げ棒グラフ.webm'></video>
+<video controls loop width="600" src='img/100％積み上げ棒グラフ.webm'></video>
 
 
 
@@ -226,7 +226,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
 
 
 #### 地域やカテゴリの並べ替え
-<video controls autoplay loop width="600" src='img/一般的なチャート/100％積み上げ棒グラフ_並べ替え.webm'></video>
+<video controls loop width="600" src='img/100％積み上げ棒グラフ_並べ替え.webm'></video>
 
 
 
@@ -239,7 +239,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
 
 ### 100％面グラフ
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/100％面グラフ.webm'></video>
+<video controls loop width="600" src='img/100％面グラフ.webm'></video>
 
 
 
@@ -255,7 +255,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
 - 各項目の長さを下(マイナス)方向に伸ばすため、以下のような計算フィールドを作成して[サイズ]にドロップする
   - `- [長さで表すメジャー]`
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/滝グラフ.webm'></video>
+<video controls loop width="600" src='img/滝グラフ.webm'></video>
 
 
 
@@ -282,7 +282,7 @@ MEMO: 「軸の編集」から「各行または列の独立した軸範囲」�
   - 手軽だがx軸の定数線を引くことができない
 - [Tableauでのパレート図の作り方 \| バンブロ ～BIでビジネスにイノベーションを～](https://blogs.techvan.co.jp/bi/2020/07/13/tableau%E3%81%A7%E3%81%AE%E3%83%91%E3%83%AC%E3%83%BC%E3%83%88%E5%9B%B3%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9)
   - この手順を参考にした
-<video controls autoplay loop width="600" src='img/一般的なチャート/パレート図.webm'></video>
+<video controls loop width="600" src='img/パレート図.webm'></video>
 
 
 
@@ -306,7 +306,7 @@ or
 WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
 ```
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/管理図.webm'></video>
+<video controls loop width="600" src='img/管理図.webm'></video>
 
 
 
@@ -323,7 +323,7 @@ WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
 🌟ポイント
 - フィールドを右クリックした[表計算の編集]で[計算アシスタント]の表示をチェックすると、[次を使用して計算]の計算順序が示される
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/日付_累計.webm'></video>
+<video controls loop width="600" src='img/日付_累計.webm'></video>
 
 
 
@@ -338,7 +338,7 @@ WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
 ### 日付_差
 
 #### 前月差
-<video controls autoplay loop width="600" src='img/一般的なチャート/日付_差_前月.webm'></video>
+<video controls loop width="600" src='img/日付_差_前月.webm'></video>
 
 
 
@@ -354,7 +354,7 @@ WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
 
 
 #### 前年同月差(日付を離散値として)
-<video controls autoplay loop width="600" src='img/一般的なチャート/日付_差_前年(日付を離散値として).webm'></video>
+<video controls loop width="600" src='img/日付_差_前年(日付を離散値として).webm'></video>
 
 
 
@@ -371,7 +371,7 @@ WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
 - 簡易表計算を行ったフィールドをデータペインにドロップして新しいフィールドを作成する
 - 新しいフィールドの計算式を編集することができる
   - 今回は前月(-1)との差を計算していた部分を、前年同月(-12)との差を計算するように変更
-<video controls autoplay loop width="600" src='img/一般的なチャート/日付_差_前年(日付を連続値として).webm'></video>
+<video controls loop width="600" src='img/日付_差_前年(日付を連続値として).webm'></video>
 
 
 
@@ -389,7 +389,7 @@ WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
 - 移動平均の計算フィールドは以下
   - `WINDOW_AVG(SUM([フィールド名]), 開始, 終了)`
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/移動平均.webm'></video>
+<video controls loop width="600" src='img/移動平均.webm'></video>
 
 
 
@@ -406,7 +406,7 @@ WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
   - 複製：[行]にある簡易表計算済みのフィールドを、Ctrlキーを押しながらDD
   - 書き換え：複製したフィールドをデータペインのドロップして編集
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/前年比成長率と前年比.webm'></video>
+<video controls loop width="600" src='img/前年比成長率と前年比.webm'></video>
 
 
 
@@ -421,7 +421,7 @@ WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
 🌟ポイント
 - [軸の編集]から、軸の反転ができる
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/バンプチャート.webm'></video>
+<video controls loop width="600" src='img/バンプチャート.webm'></video>
 
 
 
@@ -443,7 +443,7 @@ WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
   - [都道府県]フィールドに地理的役割(都道府県)を与える
   - [地域]を右クリック > [地理的役割] > [次から作成] > [都道府県] を順に選択する
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/二重軸マップ.webm'></video>
+<video controls loop width="600" src='img/二重軸マップ.webm'></video>
 
 
 
@@ -453,12 +453,12 @@ WINDOW_AVG(SUM([利益])) + 3*WINDOW_STDEVP(SUM([利益])) < SUM([利益])
 🌟ポイント
 - メジャーを重ねてドロップすることで、「メジャーネーム×メジャーバリュー」のビューを簡単に作成できる
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/集計表.webm'></video>
+<video controls loop width="600" src='img/集計表.webm'></video>
 
 ### ハイライト表
 🌟ポイント
 - 「メジャーバリュー」を[色]にドロップした場合、[別の凡例を使用]でメジャーごとに凡例の書式設定ができる。
 
-<video controls autoplay loop width="600" src='img/一般的なチャート/ハイライト表.webm'></video>
+<video controls loop width="600" src='img/ハイライト表.webm'></video>
 
 
