@@ -1,5 +1,5 @@
 # 学習ロードマップ
-初めてTableau Desktopを使い始めてからの学習記録です。  
+初めてTableau Desktopを使い始めてから約1ヶ月半の学習記録です。  
 これから使い始めようという方の参考になれば幸いです。
 
 以下ではTableau DesktopのことをTableauと表記します。  　  
@@ -38,7 +38,7 @@ Tableauのオフィシャルサイトでは無料/有料の学習コンテンツ
 
 [Tableauによる最強・最速のデータ可視化テクニック 第2版 ～データ加工からダッシュボード作成まで～（松島 七衣）｜翔泳社の本](https://www.shoeisha.co.jp/book/detail/9784798173306)
 
-▶ [一般的なチャートの作成方法 \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/%E4%B8%80%E8%88%AC%E7%9A%84%E3%81%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88)
+▶ 操作動画・メモ：[一般的なチャートの作成方法 \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/%E4%B8%80%E8%88%AC%E7%9A%84%E3%81%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88)
 
 なお、上記書籍ではTableauの製品版に付属しているサンプルデータを使用しています。  
 Tableau Publicには付属していないので、よろしければ以下をご活用ください。
@@ -55,8 +55,15 @@ STEP 2で一通りの操作方法を習得し(たつもりになり)ました。
 
 [Tableauユーザーのための伝わる！わかる！データ分析×ビジュアル表現トレーニング ～演習で身につく実践的な即戦力スキル～（松島 七衣）｜翔泳社の本](https://www.shoeisha.co.jp/book/detail/9784798169910)
 
-▶ [TRAINING \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/training)
+▶ 操作動画・メモ：[TRAINING \| tableau\_learning](https://arakaki-tokyo.github.io/tableau_learning/training)
 
+
+## STEP 4: 認定試験を受けてみる
+
+STEP2, 3をしっかりとこなせば、[Tableau Desktop Specialist](https://www.tableau.com/ja-jp/learn/certification/desktop-specialist)は余裕でpassできるでしょう。  
+[Tableau Certified Data Analyst](https://www.tableau.com/ja-jp/learn/certification/certified-data-analyst)は合否ラインギリギリという印象です。
+
+習熟度の確認のため受験してみることをお勧めします。
 
 ## APPENDIX 1
 学習期間の目安：随時

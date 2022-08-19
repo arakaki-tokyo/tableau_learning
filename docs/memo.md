@@ -145,7 +145,7 @@ ref. [ウィンドウに合わせる](https://help.tableau.com/current/pro/deskt
 - 試験の実施方法: 試験センターとオンライン試験
 
 
-### [Tableau Certified Data Analyst](https://www.tableau.com/ja-jp/learn/certification/certified-data-analyst#preparation)
+### [Tableau Certified Data Analyst](https://www.tableau.com/ja-jp/learn/certification/certified-data-analyst)
 - [試験ガイド](https://mkt.tableau.com/files/TableauCertifiedDataAnalyst_ExamGuide_ja-JP.pdf)
 - 受験料: $250
 - 推奨される製品使用経験: 6 か月以上
